@@ -1,3 +1,15 @@
+// ==UserScript==
+// @name         item hack
+// @namespace    http://tampermonkey.net/
+// @version      0.5.3
+// @description  A modded version of the Hordes.io client
+// @author       LegusX + korvnisse
+// @match        https://hordes.io/
+// @grant        GM_getValue
+// @grant        GM_setValue
+// @grant        GM_xmlhttpRequest
+//@run-at document-start
+// ==/UserScript==
 (function(){
     window.stop();
     GM_xmlhttpRequest({
